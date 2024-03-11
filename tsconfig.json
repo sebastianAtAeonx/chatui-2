@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/calcTextareaHeight.ts", "app/components/auth.jsx", "app/components/button.jsx", "app/components/chat-list.jsx", "app/components/chat.jsx", "app/components/emoji.jsx", "app/components/error.jsx", "app/components/exporter.jsx", "app/components/input-range.jsx", "app/components/markdown.jsx", "app/components/mask.jsx", "app/components/message-selector.jsx", "app/components/model-config.jsx", "app/components/new-chat.jsx", "app/components/settings.jsx", "app/components/sidebar.jsx", "app/components/ui-lib.jsx", "app/config/client.jsx", "app/config/server.jsx", "app/client/api.jsx", "app/client/controller.jsx", "app/client/platforms/google.jsx", "app/client/platforms/openai.jsx", "app/masks/cn.jsx", "app/masks/en.jsx", "app/store/access.jsx", "app/store/chat.jsx", "app/store/config.jsx", "app/store/index.jsx", "app/store/mask.jsx", "app/store/prompt.jsx", "app/store/sync.jsx", "app/store/update.jsx", "app/utils.jsx", "app/typing.jsx", "app/polyfill.jsx", "app/page.jsx", "app/constant.jsx", "app/command.jsx", "app/azure.jsx", "app/utils/token.jsx", "app/utils/model.jsx", "app/utils/merge.jsx", "app/utils/hooks.jsx", "app/utils/format.jsx", "app/utils/cors.jsx", "app/utils/clone.jsx", "app/utils/cloud/webdav.jsx", "app/utils/cloud/upstash.jsx", "app/utils/cloud/index.jsx", "app/config/build.ts"],
+  "exclude": ["node_modules"]
+}
